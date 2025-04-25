@@ -30,7 +30,7 @@ Config was uploaded to GitHub since version 1.3
   You will need Magisk or KernelSU:
 
 1. Install this module [HuskyDG/magic_overlayfs](https://github.com/HuskyDG/magic_overlayfs)
-2. After rebooting go to oem/etc with any root file manager, enable R/W and replace the thermal-engine.conf.
+2. After rebooting with any root file manager, enable R/W and replace the `oem/etc/thermal-engine.conf`.
 3. Make sure to set the same permissions and backup original files.
 4. In the end you may want to go to /data/adb/modules/magisk_overlayfs and modify mode.sh to lock partition again (mode 2), this is done to avoid some apps detecting traces of modified system.
 5. If you use KernelSU, you may want to add these lines to the end of file mentioned in the previous step:
